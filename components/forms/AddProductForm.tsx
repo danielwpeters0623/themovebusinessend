@@ -26,7 +26,7 @@ export const AddProductForm = () => {
             formRef.current?.reset()
         }} ref={formRef}>
        <div className="flex flex-col space-y-2">
-        <label className="text-gray-700">Product Name</label>
+        <label className="text-gray-700">Product Name!</label>
         <Input type="text" name="name" required />
       </div>
       <div className="flex flex-col space-y-2">
